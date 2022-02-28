@@ -17,3 +17,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::resource('productos',ProductoController::class);
+Route::resource('familias',FamiliaController::class);
